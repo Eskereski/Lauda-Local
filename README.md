@@ -587,7 +587,7 @@ significa "10 minutos de áudio em 1 minuto".
 | `small` | 1,2 GB | rápida | ~1,5–3x | **boa — padrão** |
 | `medium` | 2,4 GB | média | abaixo de 1x | muito boa |
 | `large-v3-turbo` | 2,2 GB | média | ~1x | **melhor custo/benefício** |
-| `distil-large-v3` | 2,2 GB | média | ~1x | quase large, mais rápida |
+| `distil-large-v3` | 2,2 GB | média | ~1x | **só inglês** — em português erra ou traduz |
 | `large-v3` | 3,6 GB | não cabe em 4 GB | bem abaixo de 1x | melhor absoluta |
 
 Regra prática para calibrar expectativa: **áudio de 10 minutos com `small` em

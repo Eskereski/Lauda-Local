@@ -2,6 +2,17 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [0.17.1-beta] — 2026-10-30
+
+### Corrigido
+
+- **O `distil-large-v3` aparecia como "Alta qualidade alternativa"**, mas foi
+  treinado só em inglês: em áudio em português ele erra muito ou devolve o
+  texto em inglês. Na lista de Qualidade ele passa a se chamar "Só para áudio
+  em inglês", e o README e o manual dizem o mesmo. Quem tinha esse modelo
+  salvo volta para o padrão na próxima abertura, porque o rótulo antigo não
+  existe mais.
+
 ## [0.17.0-beta] — 2026-09-25
 
 ### Adicionado

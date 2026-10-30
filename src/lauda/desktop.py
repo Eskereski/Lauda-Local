@@ -146,7 +146,8 @@ MODEL_LABELS: list[tuple[str, str]] = [
     ("Recomendado — equilibrado (small)", "small"),
     ("Melhor qualidade (medium)", "medium"),
     ("Alta qualidade, ainda rápido (large-v3-turbo)", "large-v3-turbo"),
-    ("Alta qualidade alternativa (distil-large-v3)", "distil-large-v3"),
+    # O distil foi treinado só em inglês: em português erra ou responde em inglês.
+    ("Só para áudio em inglês (distil-large-v3)", "distil-large-v3"),
     ("Máxima qualidade — lento (large-v3)", "large-v3"),
 ]
 

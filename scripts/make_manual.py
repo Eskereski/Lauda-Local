@@ -960,7 +960,9 @@ def section_models() -> list:
                 ["large-v3-turbo", "2,2 GB", "média",
                  "O melhor custo-benefício: quase a qualidade do large pela metade do "
                  "tempo."],
-                ["distil-large-v3", "2,2 GB", "média", "Alternativa ao turbo."],
+                ["distil-large-v3", "2,2 GB", "média",
+                 "Só para áudio em inglês. Em português erra ou devolve o texto em "
+                 "inglês."],
                 ["large-v3", "3,6 GB", "lenta",
                  "Máxima qualidade. Não cabe em placas de 4 GB."],
             ],
